@@ -1,0 +1,78 @@
+*{
+    box-sizing: border-box;
+  
+    scroll-behavior : smooth;
+    padding: 0;
+     margin: 0;
+    
+}
+
+
+body{
+    margin: 0;
+ 
+  
+    
+    
+
+
+}
+/* .container{
+    width:80%;
+    margin: 0 auto;
+
+} */
+img{
+    width: 100%;
+}
+
+header{
+    background-color: rgb(244, 244, 244);
+    width:100% ;
+     position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 200px;
+    margin-bottom: 100px;
+
+
+}
+header .right_headr a{
+
+   color:rgb(22, 22, 172);
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight: 500;
+    font: size 40em;;
+}
+header nav a{
+      color:rgb(22, 22, 172);
+    text-decoration: none;
+    text-transform:uppercase;
+    font-weight: 200;
+    font: size 15em;;
+    padding-left: 30px;
+}
+header nav a:hover{
+    color:royalblue;
+
+}
+
+section{
+    padding: 100px 200px;
+}
+.main{
+    width: 100%;
+    min-height: 100vh ;
+    position: fixed;
+    align-items:center;
+    background: url(img/D:\unvirsity\سنة رابعة\Web\عملي\assiments\website\img\background.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+
